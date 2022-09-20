@@ -30,7 +30,7 @@ Case2:
     - letent vector로 각각 임베딩 후, concat하여 dnn 모델 통과
     - 출력층에 sigmoid layer를 통과해 0~1사이의 값 output
 
-<img width="388" alt="스크린샷 2022-09-20 오후 5 38 12" src="https://user-images.githubusercontent.com/61912635/191210293-8e88e854-4d68-4202-ba0e-577c6a6ccc7c.png">
+<img width="388" alt="스크린샷 2022-09-20 오후 5 38 12" src="https://user-images.githubusercontent.com/61912635/191210293-8e88e854-4d68-4202-ba0e-577c6a6ccc7c.png">[2]
 
 #### 3. 최초구매 알고리즘
 Apriori, CF의 경우, 구매 횟수가 있어야 추천할 수 있다는 cold start문제가 있기 때문에, 구매이력이 없는 고객이나 신규 고객에게는 고객 demo 정보를 기반으로 유사한 고객이 구매한 상품을 추천함
@@ -74,6 +74,6 @@ Apriori, CF의 경우, 구매 횟수가 있어야 추천할 수 있다는 cold s
 
 
 ## References
-[1. NCF](https://arxiv.org/pdf/1708.05031.pdf%E4%B8%AD%E9%A6%96%E5%85%88%E8%A2%AB%E6%8F%90%E5%87%BA%E6%9D%A5%E3%80%82%E8%AE%BA%E6%96%87%E5%81%87%E8%AE%BE%E5%A6%82%E6%9E%9C%E7%94%A8%E6%88%B7u%E8%B4%AD%E4%B9%B0%E4%BA%86%E7%89%A9%E5%93%81i,%E5%88%99yui=1%E5%90%A6%E5%88%99yui=0%EF%BC%8C%E5%88%99%E6%9C%80%E7%BB%88%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BC%98%E5%8C%96%E7%9B%AE%E6%A0%87%E4%B8%BA)
-[2. Context-aware ncf](https://www.researchgate.net/profile/Moshe-Unger/publication/341635365_Context-Aware_Recommendations_Based_on_Deep_Learning_Frameworks/links/61541b9d39b8157d900498d1/Context-Aware-Recommendations-Based-on-Deep-Learning-Frameworks.pdf)
-[3. source code(ncf)](https://github.com/supkoon/neuralCF_tf2)
+[[1] NCF](https://arxiv.org/pdf/1708.05031.pdf%E4%B8%AD%E9%A6%96%E5%85%88%E8%A2%AB%E6%8F%90%E5%87%BA%E6%9D%A5%E3%80%82%E8%AE%BA%E6%96%87%E5%81%87%E8%AE%BE%E5%A6%82%E6%9E%9C%E7%94%A8%E6%88%B7u%E8%B4%AD%E4%B9%B0%E4%BA%86%E7%89%A9%E5%93%81i,%E5%88%99yui=1%E5%90%A6%E5%88%99yui=0%EF%BC%8C%E5%88%99%E6%9C%80%E7%BB%88%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BC%98%E5%8C%96%E7%9B%AE%E6%A0%87%E4%B8%BA)  
+[[2] Context-aware ncf](https://www.researchgate.net/profile/Moshe-Unger/publication/341635365_Context-Aware_Recommendations_Based_on_Deep_Learning_Frameworks/links/61541b9d39b8157d900498d1/Context-Aware-Recommendations-Based-on-Deep-Learning-Frameworks.pdf)  
+[[3] source code(ncf)](https://github.com/supkoon/neuralCF_tf2)
